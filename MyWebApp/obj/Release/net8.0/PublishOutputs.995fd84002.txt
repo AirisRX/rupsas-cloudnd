@@ -1,0 +1,7 @@
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\MyWebApp.exe
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\appsettings.json
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\MyWebApp.dll
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\MyWebApp.deps.json
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\MyWebApp.runtimeconfig.json
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\bin\Release\net8.0\publish\MyWebApp.pdb
