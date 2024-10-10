@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Rjw/1Jr7j/c=",
+  "dgSpecHash": "9No/amxooDE=",
   "success": true,
   "projectFilePath": "C:\\Users\\airid\\OneDrive - ku.lt\\Uni\\7 semestras\\Debesų kompiuterijos sistemų ir API programavimas\\Laboratoriniai\\2024-10-10\\MyWebApp\\MyWebApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512"
+  ],
   "logs": []
 }
