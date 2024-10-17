@@ -24,26 +24,20 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Additional middleware configuration
-app.UseRouting();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-    c.RoutePrefix = string.Empty; // Set the Swagger UI at the app's root
-});
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+        c.RoutePrefix = string.Empty; // Set the Swagger UI at the app's root
+    });
 }
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
+app.UseRouting(); // Move this line here
+app.UseAuthorization(); // Place this after UseRouting
 
 app.MapControllers();
 
