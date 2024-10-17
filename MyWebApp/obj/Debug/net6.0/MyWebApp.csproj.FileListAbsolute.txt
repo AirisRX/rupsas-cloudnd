@@ -73,5 +73,4 @@ C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų i
 C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\obj\Debug\net6.0\MyWebApp.pdb
 C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\obj\Debug\net6.0\MyWebApp.genruntimeconfig.cache
 C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\obj\Debug\net6.0\ref\MyWebApp.dll
-C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\obj\Debug\net6.0\MyWebApp.sourcelink.json
-C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\obj\Debug\net6.0\MyWebApp.csproj.Up2Date
+C:\Users\airid\OneDrive - ku.lt\Uni\7 semestras\Debesų kompiuterijos sistemų ir API programavimas\Laboratoriniai\2024-10-10\MyWebApp\obj\Debug\net6.0\MyWebApp.csproj.CopyComplete
