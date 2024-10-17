@@ -36,6 +36,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseAuthorization();
+app.UseStaticFiles(); // Enable serving static files
 
 app.MapControllers();
 
