@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MyWebApp.Models;
-using MyWebApp.Data;
 
 [ApiController]
 [Route("api/[controller]")]

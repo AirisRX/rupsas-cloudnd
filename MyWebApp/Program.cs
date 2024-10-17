@@ -1,9 +1,12 @@
 using Microsoft.EntityFrameworkCore; // For AddDbContext
-using MyWebApp.Data; // Adjust this based on the namespace where ApplicationDbContext is defined
+using MyWebApp.Models; // Adjust this based on the namespace where ApplicationDbContext is defined
 using Microsoft.OpenApi.Models; // Add this line at the top of the file
 using Microsoft.AspNetCore.Mvc;
+using Npgsql;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddControllers();
@@ -20,6 +23,13 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 var app = builder.Build();
+
+// Additional middleware configuration
+app.UseRouting();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

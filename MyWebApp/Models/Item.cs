@@ -1,4 +1,4 @@
-namespace MyWebApp.Data
+namespace MyWebApp.Models
 {
     public class Item
     {

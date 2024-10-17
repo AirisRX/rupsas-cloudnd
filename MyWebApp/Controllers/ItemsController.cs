@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using MyWebApp.Data;
+using MyWebApp.Models;
 using Microsoft.EntityFrameworkCore;
 
 
