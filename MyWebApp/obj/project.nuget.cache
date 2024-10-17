@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4TAGtxmT/JY=",
+  "dgSpecHash": "mN4GsO7Ot+X2UjdUvR1s+L4Jm247VfBryHLrnPkGK6W9cgotJvpqxYZ9RIMBXBj6dy0o3q0Nkgg/ISV+FE+ijg==",
   "success": true,
   "projectFilePath": "C:\\Users\\airid\\OneDrive - ku.lt\\Uni\\7 semestras\\Debesų kompiuterijos sistemų ir API programavimas\\Laboratoriniai\\2024-10-10\\MyWebApp\\MyWebApp.csproj",
   "expectedPackageFiles": [
@@ -201,16 +201,5 @@
     "C:\\Users\\airid\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\airid\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 6.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
