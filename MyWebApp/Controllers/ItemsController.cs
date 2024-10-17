@@ -9,9 +9,9 @@ namespace MyWebApp.Controllers
     [Route("api/[controller]")]
     public class ItemsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        private readonly AppDbContext _context;
 
-        public ItemsController(ApplicationDbContext context)
+        public ItemsController(AppDbContext context)
         {
             _context = context;
         }
