@@ -1,13 +1,13 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace YourApp.Models
+namespace MyWebApp.Models
 {
     public class Product
     {
         public int Id { get; set; }
         
         [Required]
-        public string Name { get; set; }
+        public required string Name { get; set; }
         
         public decimal Price { get; set; }
     }

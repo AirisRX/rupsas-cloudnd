@@ -1,13 +1,16 @@
 using Microsoft.EntityFrameworkCore; // For AddDbContext
 using MyWebApp.Data; // Adjust this based on the namespace where ApplicationDbContext is defined
 using Microsoft.OpenApi.Models; // Add this line at the top of the file
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+// Update to use PostgreSQL instead of SQL Server
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add Swagger services
 builder.Services.AddEndpointsApiExplorer();
@@ -25,7 +28,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 // Enable middleware to serve generated Swagger as a JSON endpoint.
@@ -42,4 +44,3 @@ app.UseSwaggerUI(c =>
 app.MapControllers();
 
 app.Run();
-

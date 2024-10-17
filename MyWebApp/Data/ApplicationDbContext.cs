@@ -1,15 +1,12 @@
 using Microsoft.EntityFrameworkCore;
+using MyWebApp.Models; // Adjust this based on your namespace
+namespace MyWebApp.Data;
 
-namespace MyWebApp.Data
+public class ApplicationDbContext : DbContext
 {
-    public class ApplicationDbContext : DbContext
-    {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            : base(options)
-        {
-        }
+    public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        // DbSets for your entities
-        public DbSet<Item> Items { get; set; }
-    }
-}
+    public DbSet<Product> Products { get; set; } // Ensure this line exists
+    public DbSet<Item> Items { get; set; }
+}   
+
