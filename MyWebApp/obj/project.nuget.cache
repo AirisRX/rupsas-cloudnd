@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "MHWrd+EwWiM=",
-  "success": true,
+  "dgSpecHash": "MSiJZjw3c7U=",
+  "success": false,
   "projectFilePath": "C:\\Users\\airid\\OneDrive - ku.lt\\Uni\\7 semestras\\Debesų kompiuterijos sistemų ir API programavimas\\Laboratoriniai\\2024-10-10\\MyWebApp\\MyWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\airid\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -57,12 +57,32 @@
     "C:\\Users\\airid\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\airid\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\airid\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
-    "C:\\Users\\airid\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\airid\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\airid\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\airid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\airid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512",
     "C:\\Users\\airid\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.35\\microsoft.netcore.app.ref.6.0.35.nupkg.sha512",
-    "C:\\Users\\airid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512"
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.35\\microsoft.windowsdesktop.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.35\\microsoft.aspnetcore.app.ref.6.0.35.nupkg.sha512",
+    "C:\\Users\\airid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.35\\microsoft.netcore.app.host.win-x64.6.0.35.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Text.Json' 6.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: System.Text.Json from 7.0.0 to 6.0.0. Reference the package directly from the project to select a different version. \r\n MyWebApp -> Microsoft.EntityFrameworkCore.Tools 7.0.11 -> Microsoft.EntityFrameworkCore.Design 7.0.11 -> Microsoft.Extensions.DependencyModel 7.0.0 -> System.Text.Json (>= 7.0.0) \r\n MyWebApp -> System.Text.Json (>= 6.0.0)",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
