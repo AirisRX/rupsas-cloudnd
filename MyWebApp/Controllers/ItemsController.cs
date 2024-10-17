@@ -5,8 +5,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MyWebApp.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class ItemsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
